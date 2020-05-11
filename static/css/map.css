@@ -1,0 +1,173 @@
+/*图例*/
+.img-ishow{
+    position:absolute;
+    right:38px;
+    bottom:34px;
+    z-index:1;
+    width:25px;
+    height:25px;
+    background:#7E9CC1;
+    color:white;
+    text-align:center;
+    cursor:pointer;
+}
+.img-ishow i{line-height:25px!important;}
+.img-ishow:hover{
+    background:#337AB7;
+}
+.img-eg{
+    position:absolute;
+    right:80px;
+    bottom:10px;
+}
+.img-eg ul{
+    list-style:none;
+    background-color: whitesmoke
+}
+.img-eg ul li{
+    line-height:30px;
+    cursor:pointer;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+.img-eg ul li img{
+    width:30px;
+    height:30px;
+}
+.img-eg ul li span{
+    line-height:30px;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+/*弹窗*/
+.ol-popup {
+	position: absolute;
+	background-color: #161529;
+	-webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	/* padding: 8px; */
+	border-radius: 10px;
+	/* border: 1px solid #cccccc; */
+	bottom: 40px;
+    left: -150px;
+    min-width: 300px;
+    z-index: 3;
+}
+.ol-detail {
+	position: absolute;
+	background-color: #161529;
+	-webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	/* padding: 8px; */
+	border-radius: 10px;
+	/* border: 1px solid #cccccc; */
+	bottom: 40px;
+    left: 175px;
+    min-width: 300px;
+    z-index: 3;
+    display: none;
+}
+.form-horizontal .control-label{
+	padding-top: 0;
+	margin-top: 0;
+    width: auto;
+    color:#C7CEF2;
+    font-size: 12px;
+}
+.form-horizontal .name {
+    /* margin-left: 25px; */
+    min-height: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    background-color: #2E2C48;
+    color: #C7CEF2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-family: MicrosoftYaHei;
+}
+.form-horizontal #equ-message{
+    width:100%;
+    height: auto;
+    padding:10px 5px;
+    line-height: 40px;
+}
+#monState,#stState,#fiState{
+    /* display: none; */
+}
+#monState,#stState{
+    border-bottom: 1px solid #2E2C48;
+}
+.form-horizontal .message a{
+    /* display: inline-block; */
+    height: 47px;
+    line-height: 47px;
+    text-align: left;
+    color: #8084A2;
+    font-size: 12px;
+    font-family: SimSun;
+    padding-right: 10px;
+}
+.form-horizontal .message span{
+    padding-left: 5px;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+.form-horizontal .message .unusual{
+    color: rgb(255, 2, 2);
+}
+.form-horizontal .form-group{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+.triangle_border_down{
+    width:0;
+    height:0;
+    border-width:15px 8px;
+    border-style:solid;
+    border-color:#161529 transparent transparent transparent;/*灰 透明 透明 */
+    margin:0 auto;
+    position:absolute;
+    bottom: -28px;
+    left: 1px; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.triangle_border_left{
+    width:0;
+    height:0;
+    border-width:8px 15px;
+    border-style:solid;
+    border-color: transparent #161529 transparent transparent;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 95px;
+    left: -330px;
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.ol-control {
+    background-color: #150619;
+    /* border-radius: 4px; */
+}
+.ol-control button {
+    display: block;
+    margin: 1px;
+    padding: 0;
+    color: #C7CEF2;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    height: 1.375em;
+    width: 1.375em;
+    line-height: .4em;
+    background-color: #150619;
+    border: none;
+    /* border-radius: 2px; */
+}
