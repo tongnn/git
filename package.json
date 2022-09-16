@@ -15,7 +15,7 @@
   "dependencies": {
     "async-validator": "^1.7.1",
     "axios": "0.16.2",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "css-loader": "^0.28.4",
     "deepmerge": "^1.5.0",
     "element-ui": "^2.13.0",
